@@ -19,7 +19,9 @@ div.doors {
   margin-top: -0vh;
   margin-left: 0vh;
   position: relative;
- 
+  top: -70px;
+  justify-content: center;
+  align-items: center;
 }
 }
  
@@ -31,8 +33,105 @@ div.doors {
     margin-top: 0vh;
     margin-left: 0vh;
     position: relative;  
+    top: -30px;
   }
   }
+  @media screen and (max-width: 600px) {
+    div.doorsp2 {
+      display: flex;
+      flex-direction: row;
+      row-gap: 40vh;
+      margin-top: -0vh;
+      margin-left: 0vh;
+      position: relative;
+      top: -70px;
+     
+    }
+    }
+     
+    @media screen and (min-width: 601px) {
+      div.doorsp2 {
+        display: flex;
+        flex-direction: row;
+        row-gap: 40vh;
+        margin-top: 0vh;
+        margin-left: 0vh;
+        position: relative;  
+        top: -30px;
+      }
+      }
+      @media screen and (max-width: 600px) {
+        div.doorsp3 {
+          display: flex;
+          flex-direction: row;
+          row-gap: 40vh;
+          margin-top: -0vh;
+          margin-left: 0vh;
+          position: relative;
+          top: -70px;
+         
+        }
+        }
+         
+        @media screen and (min-width: 601px) {
+          div.doorsp3 {
+            display: flex;
+            flex-direction: row;
+            row-gap: 40vh;
+            margin-top: 0vh;
+            margin-left: 0vh;
+            position: relative;  
+            top: -30px;
+          }
+          }
+          @media screen and (max-width: 600px) {
+            div.doorsp4 {
+              display: flex;
+              flex-direction: row;
+              row-gap: 40vh;
+              margin-top: -0vh;
+              margin-left: 0vh;
+              position: relative;
+              top: -70px;
+             
+            }
+            }
+             
+            @media screen and (min-width: 601px) {
+              div.doorsp4 {
+                display: flex;
+                flex-direction: row;
+                row-gap: 40vh;
+                margin-top: 0vh;
+                margin-left: 0vh;
+                position: relative;  
+                top: -30px;
+              }
+              }
+              @media screen and (max-width: 600px) {
+                div.doorsp5 {
+                  display: flex;
+                  flex-direction: row;
+                  row-gap: 40vh;
+                  margin-top: -0vh;
+                  margin-left: 0vh;
+                  position: relative;
+                  top: -70px;
+                 
+                }
+                }
+                 
+                @media screen and (min-width: 601px) {
+                  div.doorsp5 {
+                    display: flex;
+                    flex-direction: row;
+                    row-gap: 40vh;
+                    margin-top: 0vh;
+                    margin-left: 0vh;
+                    position: relative;  
+                    top: -30px;
+                  }
+                  }
   
   img {
     max-width: 100%;

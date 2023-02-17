@@ -8,8 +8,9 @@ html {
   body {
     margin: 1rem;
     line-height: 1.5;
-    background-color: white;
+    background-color: black;
   }
+  
 
 @media screen and (min-width: 601px) {
   div.text1 {
@@ -17,12 +18,12 @@ html {
    flex-direction: row;
   flex-wrap: wrap;
    position:relative;
-  top: 3vw;
-  left:0vw;
-  font-size:40px; 
-  color: black;
+  top: 4vw;
+  left: 0vw;
+  font-size:200px; 
+  color: white;
   font-family: 'Avenir';
-  word-wrap: normal; 
+  letter-spacing: -3rem;
 }
 }
 @media screen and (max-width: 600px) {
@@ -31,12 +32,16 @@ html {
    flex-direction: row;
   flex-wrap: wrap;
    position:relative;
-  top: 5vw;
-  left:0vw;
-  font-size:30px; 
-  color: black;
-  font-family: 'Avenir', sans-serif;
-  word-wrap: normal; 
+   justify-content: left;
+    align-items: left;  
+    top: -1vw;
+    left:0vw;
+  font-size: 30px; 
+  color: white;
+  font-family: 'Avenir';
+  letter-spacing: 3rem;
+
+  
 }
 }
 
@@ -48,15 +53,16 @@ html {
      position:relative;
     justify-content: left;
     align-items: left;  
-    top: 2vw;
-    left:-11vw;
+    top: 3vw;
+    left:0vw;
     text-align: left;
-    font-size:150px; 
-    color: black;
+    font-size:300px; 
+    color: white;
   font-family: minion-pro, serif;
    font-style: normal;
-   padding-left: 200px; 
-   word-wrap: normal; 
+   letter-spacing: -10rem;
+ 
+  
   }
   }
   @media screen and (max-width: 600px) {
@@ -68,13 +74,13 @@ html {
     justify-content: left;
     align-items: left;  
     top: 1vw;
-    left:-43vw;
+    left:0vw;
     text-align: left;
     font-size:100px; 
-    color: black;
+    color: white;
     font-family: minion-pro, serif;
-    padding-left: 200px;
-    word-wrap: normal; 
+    letter-spacing: -5rem;
+
   }
   }
 
@@ -85,7 +91,7 @@ html {
       display: flex;
       flex-direction: row;
       row-gap: 40vh;
-      margin-top: 40vh;
+      margin-top: 10vh;
       margin-left: 20vh;
      
       position: absolute;
@@ -97,7 +103,7 @@ html {
     display: flex;
     flex-direction: row;
     row-gap: 40vh;
-    margin-top: 40vh;
+    margin-top: 20vh;
     margin-left: 63vh;
     position: absolute;
     resize: both;

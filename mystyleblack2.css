@@ -10,6 +10,7 @@ html {
     line-height: 1.5;
     background-color: black;
   }
+  
 
 @media screen and (min-width: 601px) {
   div.text1 {
@@ -18,11 +19,17 @@ html {
   flex-wrap: wrap;
    position:relative;
   top: 5.5vw;
-  left:5vw;
   font-size:20px; 
   color: white;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Avenir';
   word-wrap: normal; 
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  margin-right: 9vw;
 }
 }
 @media screen and (max-width: 600px) {
@@ -32,11 +39,18 @@ html {
   flex-wrap: wrap;
    position:relative;
   top: 5vw;
-  left:7vw;
   font-size:15px; 
   color: white;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Avenir';
   word-wrap: normal; 
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+margin-right: 15vw;
+  
 }
 }
 
@@ -57,6 +71,14 @@ html {
    font-style: normal;
    padding-left: 200px; 
    word-wrap: normal; 
+   transform: scale(-1, 1);
+   -moz-transform: scale(-1, 1);
+   -webkit-transform: scale(-1, 1);
+   -o-transform: scale(-1, 1);
+   -ms-transform: scale(-1, 1);
+   transform: scale(-1, 1);
+   margin-right: -35vh;
+  
   }
   }
   @media screen and (max-width: 600px) {
@@ -75,6 +97,14 @@ html {
     font-family: minion-pro, serif;
     padding-left: 200px;
     word-wrap: normal; 
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    margin-right: -81vw;
+  
   }
   }
 

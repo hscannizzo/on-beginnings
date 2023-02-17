@@ -18,10 +18,10 @@ html {
   flex-wrap: wrap;
    position:relative;
   top: 3vw;
-  left:9vw;
-  font-size:20px; 
+  left:0vw;
+  font-size:40px; 
   color: black;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Avenir', sans-serif;
   word-wrap: normal; 
 }
 }
@@ -32,10 +32,10 @@ html {
   flex-wrap: wrap;
    position:relative;
   top: 5vw;
-  left:17vw;
-  font-size:15px; 
+  left:0vw;
+  font-size:30px; 
   color: black;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Avenir', sans-serif;
   word-wrap: normal; 
 }
 }
@@ -48,7 +48,7 @@ html {
      position:relative;
     justify-content: left;
     align-items: left;  
-    top: -6vw;
+    top: 2vw;
     left:-11vw;
     text-align: left;
     font-size:150px; 
@@ -67,7 +67,7 @@ html {
      position:relative;
     justify-content: left;
     align-items: left;  
-    top: -20vw;
+    top: 1vw;
     left:-43vw;
     text-align: left;
     font-size:100px; 

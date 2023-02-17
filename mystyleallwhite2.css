@@ -17,7 +17,7 @@ html {
    flex-direction: row;
   flex-wrap: wrap;
    position:relative;
-  top: 5.5vw;
+  top: 3vw;
   left:9vw;
   font-size:20px; 
   color: black;
@@ -48,7 +48,7 @@ html {
      position:relative;
     justify-content: left;
     align-items: left;  
-    top: -4vw;
+    top: -6vw;
     left:-11vw;
     text-align: left;
     font-size:150px; 

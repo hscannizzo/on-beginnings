@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /* adjust typography defaults */
+  body {
+   margin-top: -6vw;
+    background-color: #680505;
+  }
+  text {
+    font-size: 5px;
+    
+  }
+  
+
+
+  @media screen and (min-width: 601px) {
+    div.text2 {
+      display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
+     position:relative;
+    justify-content: left;
+    align-items: left;  
+    top: 0vw;
+    left:0vw;
+    text-align: left;
+    font-size:150px; 
+    color: white;
+  font-family: minion-pro, serif;
+
+  
+  }
+  }
+  @media screen and (max-width: 600px) {
+    div.text2 {
+      display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
+     position:relative;
+    justify-content: left;
+    align-items: left;  
+    top: 0vw;
+    left:0vw;
+    text-align: left;
+    font-size:100px; 
+    color: white;
+    font-family: minion-pro, serif;
+
+  
+  }
+  }
+
+
+
+@media screen and (max-width: 600px) {
+    div.doors {
+      display: flex;
+      flex-direction: row;
+      row-gap: 40vh;
+      margin-top: -40vh;
+      margin-left: 20vh;
+     
+      position: absolute;
+      resize: both;
+    }
+}
+@media screen and (min-width: 601px) {
+  div.doors {
+    display: flex;
+    flex-direction: row;
+    row-gap: 40vh;
+    margin-top: -140vh;
+    margin-left: 63vh;
+    position: absolute;
+    resize: both;
+  
+  }
+  }
+  img{
+    max-width: 30%;
+    height: auto;
+    width: auto\9;
+    display: block; 
+    object-fit: contain;
+    
+}

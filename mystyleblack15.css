@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    line-height: 1.5;
+    background-color: black;
+  }
+
+@media screen and (min-width: 601px) {
+    span.stretch {
+        display: inline-block;
+        margin: 35px;
+        -webkit-transform: scale(20, 1);
+        -moz-transform: scale(20, 1);
+        -o-transform: scale(20, 1);
+        transform: scale(20, 1);
+        font-family: "avenir";
+        font-size: 10px;
+        color: white;
+      }
+    }
+@media screen and (max-width: 600px) {
+    span.stretch {
+        display: inline-block;
+        margin: 35px;
+        -webkit-transform: scale(10, 1);
+        -moz-transform: scale(10, 1);
+        -o-transform: scale(10, 1);
+        transform: scale(10, 1);
+        font-family: "avenir";
+        font-size: 10px;
+        color: white;
+      }
+    }
+
+  @media screen and (min-width: 601px) {
+    div.text2 {
+      display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
+     position:relative;
+    justify-content: left;
+    align-items: left;  
+    top: 2vw;
+    left:-11vw;
+    text-align: left;
+    font-size:150px; 
+    color: white;
+  font-family: minion-pro, serif;
+   font-style: normal;
+   padding-left: 200px; 
+   word-wrap: normal; 
+  }
+  }
+  @media screen and (max-width: 600px) {
+    div.text2 {
+      display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
+     position:relative;
+    justify-content: left;
+    align-items: left;  
+    top: 1vw;
+    left:-43vw;
+    text-align: left;
+    font-size:100px; 
+    color: white;
+    font-family: minion-pro, serif;
+    padding-left: 200px;
+    word-wrap: normal; 
+  }
+  }
+
+
+
+@media screen and (max-width: 600px) {
+    div.doors {
+      display: flex;
+      flex-direction: row;
+      row-gap: 40vh;
+      margin-top: 10vh;
+      margin-left: 20vh;
+     
+      position: absolute;
+      resize: both;
+    }
+}
+@media screen and (min-width: 601px) {
+  div.doors {
+    display: flex;
+    flex-direction: row;
+    row-gap: 40vh;
+    margin-top: 20vh;
+    margin-left: 63vh;
+    position: absolute;
+    resize: both;
+  
+  }
+  }
+  img{
+    max-width: 30%;
+    height: auto;
+    width: auto\9;
+    display: block; 
+    object-fit: contain;
+    
+}

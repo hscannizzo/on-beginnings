@@ -10,35 +10,18 @@ html {
     line-height: 1.5;
     background-color: black;
   }
+  
 
-@media screen and (min-width: 601px) {
-  div.text1 {
-    display: flex;
-   flex-direction: row;
-  flex-wrap: wrap;
-   position:relative;
-  top: 3vw;
-  left:0vw;
-  font-size:40px; 
-  color: white;
-  font-family: 'Avenir', sans-serif;
-  word-wrap: normal; 
-}
-}
-@media screen and (max-width: 600px) {
-  div.text1 {
-    display: flex;
-   flex-direction: row;
-  flex-wrap: wrap;
-   position:relative;
-  top: 5vw;
-  left:0vw;
-  font-size:30px; 
-  color: white;
-  font-family: 'Avenir', sans-serif;
-  word-wrap: normal; 
-}
-}
+  del {
+    background: #000;
+    color: #000;
+    text-decoration:none;
+    font-family:"Avenir";
+    font-size: 30px;
+    }
+    del:hover {
+    color: #fff;
+    }
 
   @media screen and (min-width: 601px) {
     div.text2 {
@@ -48,15 +31,14 @@ html {
      position:relative;
     justify-content: left;
     align-items: left;  
-    top: 2vw;
-    left:-11vw;
+    top: -4vw;
+    left:1vw;
     text-align: left;
     font-size:150px; 
     color: white;
   font-family: minion-pro, serif;
-   font-style: normal;
-   padding-left: 200px; 
-   word-wrap: normal; 
+
+  
   }
   }
   @media screen and (max-width: 600px) {
@@ -67,14 +49,14 @@ html {
      position:relative;
     justify-content: left;
     align-items: left;  
-    top: 1vw;
-    left:-43vw;
+    top: 0vw;
+    left:0vw;
     text-align: left;
     font-size:100px; 
     color: white;
     font-family: minion-pro, serif;
-    padding-left: 200px;
-    word-wrap: normal; 
+
+  
   }
   }
 

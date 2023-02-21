@@ -1,47 +1,40 @@
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  /* adjust typography defaults */
-  body {
-    margin: 1rem;
-    line-height: 1.5;
-    background-color: black;
-  }
+@import url("https://www.axis-praxis.org/fonts/webfonts/AvenirNext_Variable.woff2");
 
-@media screen and (min-width: 601px) {
-  div.text1 {
-    display: flex;
-   flex-direction: row;
-  flex-wrap: wrap;
-   position:relative;
-  top: 3vw;
-  left:0vw;
-  font-size:40px; 
-  color: white;
-  font-family: 'Avenir', sans-serif;
-  word-wrap: normal; 
+body {
+    margin: 0px;
+    background-color: black;
 }
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.6px);
 }
-@media screen and (max-width: 600px) {
-  div.text1 {
-    display: flex;
-   flex-direction: row;
-  flex-wrap: wrap;
-   position:relative;
-  top: 5vw;
-  left:0vw;
-  font-size:30px; 
-  color: white;
-  font-family: 'Avenir', sans-serif;
-  word-wrap: normal; 
+
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Avenir";
+    color: white;
+    font-size: 80pt;
+  
+    text-align: center;
+
+    user-select: none;
 }
-}
+
 
   @media screen and (min-width: 601px) {
-    div.text2 {
+    div.text3 {
       display: flex;
      flex-direction: row;
     flex-wrap: wrap;
@@ -60,7 +53,7 @@ html {
   }
   }
   @media screen and (max-width: 600px) {
-    div.text2 {
+    div.text3 {
       display: flex;
      flex-direction: row;
     flex-wrap: wrap;

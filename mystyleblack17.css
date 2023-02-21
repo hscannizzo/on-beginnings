@@ -6,11 +6,257 @@ html {
   }
   /* adjust typography defaults */
   body {
-    margin: 1rem;
-    line-height: 1.5;
-    background-color: black;
+  background: black;
+  color: white;
+  font: 3vw/1.2 "Avenir", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 55vw;
+  margin: 0 auto;
+  min-height: 100vh;
+  perspective: 200px;
+  -webkit-animation: perspective 3s cubic-bezier(0.35, 0.06, 0.92, 0.03) infinite;
+          animation: perspective 3s cubic-bezier(0.35, 0.06, 0.92, 0.03) infinite;
+}
+@-webkit-keyframes perspective {
+  0% {
+    perspective: 100px;
+    transform: scale(0.5);
   }
+  100% {
+    perspective: 10000px;
+    transform: scale(1);
+  }
+}
+@keyframes perspective {
+  0% {
+    perspective: 100px;
+    transform: scale(0.5);
+  }
+  100% {
+    perspective: 10000px;
+    transform: scale(1);
+  }
+}
 
+p {
+  transform-style: preserve-3d;
+}
+
+span {
+  display: inline-block;
+}
+span:nth-child(1) {
+  transform: translateZ(-157.7562910703px);
+}
+span:nth-child(2) {
+  transform: translateZ(-294.1086645106px);
+}
+span:nth-child(3) {
+  transform: translateZ(-245.4257834321px);
+}
+span:nth-child(4) {
+  transform: translateZ(-533.6399391468px);
+}
+span:nth-child(5) {
+  transform: translateZ(-151.904404755px);
+}
+span:nth-child(6) {
+  transform: translateZ(-133.3445514036px);
+}
+span:nth-child(7) {
+  transform: translateZ(-659.613131076px);
+}
+span:nth-child(8) {
+  transform: translateZ(-813.8063211631px);
+}
+span:nth-child(9) {
+  transform: translateZ(-791.0095685274px);
+}
+span:nth-child(10) {
+  transform: translateZ(-554.6796986052px);
+}
+span:nth-child(11) {
+  transform: translateZ(-218.2643392266px);
+}
+span:nth-child(12) {
+  transform: translateZ(-290.2799096747px);
+}
+span:nth-child(13) {
+  transform: translateZ(-589.3806345127px);
+}
+span:nth-child(14) {
+  transform: translateZ(-525.0413306878px);
+}
+span:nth-child(15) {
+  transform: translateZ(-264.8105721049px);
+}
+span:nth-child(16) {
+  transform: translateZ(-824.9163540072px);
+}
+span:nth-child(17) {
+  transform: translateZ(-362.703974416px);
+}
+span:nth-child(18) {
+  transform: translateZ(-907.5740150218px);
+}
+span:nth-child(19) {
+  transform: translateZ(-473.9235794188px);
+}
+span:nth-child(20) {
+  transform: translateZ(-530.2030802361px);
+}
+span:nth-child(21) {
+  transform: translateZ(-435.8105786439px);
+}
+span:nth-child(22) {
+  transform: translateZ(-107.3064793949px);
+}
+span:nth-child(23) {
+  transform: translateZ(-254.0023997404px);
+}
+span:nth-child(24) {
+  transform: translateZ(-528.1919660955px);
+}
+span:nth-child(25) {
+  transform: translateZ(-175.8804867382px);
+}
+span:nth-child(26) {
+  transform: translateZ(-736.5095818867px);
+}
+span:nth-child(27) {
+  transform: translateZ(-891.7141966886px);
+}
+span:nth-child(28) {
+  transform: translateZ(-455.4449013798px);
+}
+span:nth-child(29) {
+  transform: translateZ(-256.454761579px);
+}
+span:nth-child(30) {
+  transform: translateZ(-262.4224753725px);
+}
+span:nth-child(31) {
+  transform: translateZ(-647.0097542461px);
+}
+span:nth-child(32) {
+  transform: translateZ(-351.993973535px);
+}
+span:nth-child(33) {
+  transform: translateZ(-260.0999940946px);
+}
+span:nth-child(34) {
+  transform: translateZ(-966.8687516711px);
+}
+span:nth-child(35) {
+  transform: translateZ(-85.8991365793px);
+}
+span:nth-child(36) {
+  transform: translateZ(-476.6412816638px);
+}
+span:nth-child(37) {
+  transform: translateZ(-408.2169712038px);
+}
+span:nth-child(38) {
+  transform: translateZ(-952.7730022022px);
+}
+span:nth-child(39) {
+  transform: translateZ(-810.5693546541px);
+}
+span:nth-child(40) {
+  transform: translateZ(-751.7052063071px);
+}
+span:nth-child(41) {
+  transform: translateZ(-181.95337838px);
+}
+span:nth-child(42) {
+  transform: translateZ(-833.2449213007px);
+}
+span:nth-child(43) {
+  transform: translateZ(-6.7874631254px);
+}
+span:nth-child(44) {
+  transform: translateZ(-996.2136958124px);
+}
+span:nth-child(45) {
+  transform: translateZ(-609.838858742px);
+}
+span:nth-child(46) {
+  transform: translateZ(-215.3800043396px);
+}
+span:nth-child(47) {
+  transform: translateZ(-993.6280870962px);
+}
+span:nth-child(48) {
+  transform: translateZ(-680.8019479448px);
+}
+span:nth-child(49) {
+  transform: translateZ(-470.7291810361px);
+}
+span:nth-child(50) {
+  transform: translateZ(-481.6024146637px);
+}
+span:nth-child(51) {
+  transform: translateZ(-107.1747573551px);
+}
+span:nth-child(52) {
+  transform: translateZ(-602.0302370239px);
+}
+span:nth-child(53) {
+  transform: translateZ(-8.8540272243px);
+}
+span:nth-child(54) {
+  transform: translateZ(-599.4160507646px);
+}
+span:nth-child(55) {
+  transform: translateZ(-637.7654549766px);
+}
+span:nth-child(56) {
+  transform: translateZ(-710.064232155px);
+}
+span:nth-child(57) {
+  transform: translateZ(-668.0434303269px);
+}
+span:nth-child(58) {
+  transform: translateZ(-580.9673166759px);
+}
+span:nth-child(59) {
+  transform: translateZ(-600.050623302px);
+}
+span:nth-child(60) {
+  transform: translateZ(-744.4184789351px);
+}
+span:nth-child(61) {
+  transform: translateZ(-486.3924348492px);
+}
+span:nth-child(62) {
+  transform: translateZ(-325.5909536917px);
+}
+span:nth-child(63) {
+  transform: translateZ(-960.1174373799px);
+}
+span:nth-child(64) {
+  transform: translateZ(-181.8407539775px);
+}
+span:nth-child(65) {
+  transform: translateZ(-573.3989094278px);
+}
+span:nth-child(66) {
+  transform: translateZ(-117.1384423052px);
+}
+span:nth-child(67) {
+  transform: translateZ(-252.5611119177px);
+}
+span:nth-child(68) {
+  transform: translateZ(-922.3667141935px);
+}
+span:nth-child(69) {
+  transform: translateZ(-17.1930789812px);
+}
+span:nth-child(70) {
+  transform: translateZ(-955.0035110716px);
+}
 @media screen and (min-width: 601px) {
   div.text1 {
     display: flex;
@@ -85,8 +331,8 @@ html {
       display: flex;
       flex-direction: row;
       row-gap: 40vh;
-      margin-top: 40vh;
-      margin-left: 20vh;
+      margin-top: 50vh;
+      margin-left: 5vh;
      
       position: absolute;
       resize: both;
@@ -97,8 +343,8 @@ html {
     display: flex;
     flex-direction: row;
     row-gap: 40vh;
-    margin-top: 40vh;
-    margin-left: 63vh;
+    margin-top: 90vh;
+    margin-left: 23vh;
     position: absolute;
     resize: both;
   

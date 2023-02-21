@@ -12,33 +12,31 @@ html {
   }
 
 @media screen and (min-width: 601px) {
-  div.text1 {
-    display: flex;
-   flex-direction: row;
-  flex-wrap: wrap;
-   position:relative;
-  top: 3vw;
-  left:0vw;
-  font-size:40px; 
-  color: white;
-  font-family: 'Avenir', sans-serif;
-  word-wrap: normal; 
-}
-}
+    span.stretch {
+        display: inline-block;
+        margin: 35px;
+        -webkit-transform: scale(20, 1);
+        -moz-transform: scale(20, 1);
+        -o-transform: scale(20, 1);
+        transform: scale(20, 1);
+        font-family: "avenir";
+        font-size: 10px;
+        color: white;
+      }
+    }
 @media screen and (max-width: 600px) {
-  div.text1 {
-    display: flex;
-   flex-direction: row;
-  flex-wrap: wrap;
-   position:relative;
-  top: 5vw;
-  left:0vw;
-  font-size:30px; 
-  color: white;
-  font-family: 'Avenir', sans-serif;
-  word-wrap: normal; 
-}
-}
+    span.stretch {
+        display: inline-block;
+        margin: 35px;
+        -webkit-transform: scale(10, 1);
+        -moz-transform: scale(10, 1);
+        -o-transform: scale(10, 1);
+        transform: scale(10, 1);
+        font-family: "avenir";
+        font-size: 10px;
+        color: white;
+      }
+    }
 
   @media screen and (min-width: 601px) {
     div.text2 {
@@ -85,7 +83,7 @@ html {
       display: flex;
       flex-direction: row;
       row-gap: 40vh;
-      margin-top: 40vh;
+      margin-top: 10vh;
       margin-left: 20vh;
      
       position: absolute;
@@ -97,7 +95,7 @@ html {
     display: flex;
     flex-direction: row;
     row-gap: 40vh;
-    margin-top: 40vh;
+    margin-top: 20vh;
     margin-left: 63vh;
     position: absolute;
     resize: both;

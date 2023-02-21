@@ -13,19 +13,128 @@
     <link rel="stylesheet" href="mystyleblack33.css" type="text/css"/>
   </head>
   <body>
-    <div class="text2">
+    <div class="text3">
         <div>33</div> 
     </div> 
+    <div id="container">
+        <span id="text1"></span>
+        <span id="text2"></span>
+    </div>
     
+    <svg id="filters">
+        <defs>
+            <filter id="threshold">
+                <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                                        0 1 0 0 0
+                                        0 0 1 0 0
+                                        0 0 0 255 -140" />
+            </filter>
+        </defs>
+    </svg>  
+
+
+   
+
+</div>
+
+<div class="doors">
+    <div class="door1"><a href="indexroomofdoorsblack.html"><img src="black door.png" alt="black door" width="327" height="654"></a></div>
+    <div class="door2"><a href="indexwhite20.html"><img src="white door.png" alt="white door" width="327" height="654"></a></div>
+</div>  
+
+<script type="text/javascript">
+    const elts = {
+        text1: document.getElementById("text1"),
+        text2: document.getElementById("text2")
+    };
+    
+    const texts = [
+        "Which",
+        "is",
+        "a",
+        "wonderful",
+        "you",
+        "thing."
+        
+        
+        
+    ];
+    
+    const morphTime = 1;
+    const cooldownTime = 0.25;
+    
+    let textIndex = texts.length - 1;
+    let time = new Date();
+    let morph = 0;
+    let cooldown = cooldownTime;
+    
+    elts.text1.textContent = texts[textIndex % texts.length];
+    elts.text2.textContent = texts[(textIndex + 1) % texts.length];
+    
+    function doMorph() {
+        morph -= cooldown;
+        cooldown = 0;
+    
+        let fraction = morph / morphTime;
+    
+        if (fraction > 1) {
+            cooldown = cooldownTime;
+            fraction = 1;
+        }
+    
+        setMorph(fraction);
+    }
+    
+    function setMorph(fraction) {
+        elts.text2.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
+        elts.text2.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
+    
+        fraction = 1 - fraction;
+        elts.text1.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
+        elts.text1.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
+    
+        elts.text1.textContent = texts[textIndex % texts.length];
+        elts.text2.textContent = texts[(textIndex + 1) % texts.length];
+    }
+    
+    function doCooldown() {
+        morph = 0;
+    
+        elts.text2.style.filter = "";
+        elts.text2.style.opacity = "100%";
+    
+        elts.text1.style.filter = "";
+        elts.text1.style.opacity = "0%";
+    }
+    
+    function animate() {
+        requestAnimationFrame(animate);
+    
+        let newTime = new Date();
+        let shouldIncrementIndex = cooldown > 0;
+        let dt = (newTime - time) / 1000;
+        time = newTime;
+    
+        cooldown -= dt;
+    
+        if (cooldown <= 0) {
+            if (shouldIncrementIndex) {
+                textIndex++;
+            }
+    
+            doMorph();
+        } else {
+            doCooldown();
+        }
+    }
+    animate();
+    </script>
 
 
    
 
 
-<div class="doors">
-    <div class="door1"><a href="indexroomofdoorsblack.html"><img src="black door.png" alt="black door" width="327" height="654"></a></div>
-    <div class="door2"><a href="indexwhite20.html"><img src="white door.png" alt="white door" width="327" height="654"></a></div>
-</div> 
+
 
   </body>
 </html>

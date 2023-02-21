@@ -18,8 +18,8 @@ html {
   flex-wrap: wrap;
    position:relative;
   top: 3vw;
-  left:0vw;
-  font-size:40px; 
+  left:46vw;
+  font-size:1px; 
   color: white;
   font-family: 'Avenir', sans-serif;
   word-wrap: normal; 
@@ -32,8 +32,8 @@ html {
   flex-wrap: wrap;
    position:relative;
   top: 5vw;
-  left:0vw;
-  font-size:30px; 
+  left:45vw;
+  font-size:1px; 
   color: white;
   font-family: 'Avenir', sans-serif;
   word-wrap: normal; 

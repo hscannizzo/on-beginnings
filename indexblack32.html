@@ -18,7 +18,8 @@
     </div> 
     
 
-
+    <p>And I realized children very often denote the end because it is indeed a great achievement for them to have written anything, and they are completely unaware of the number of stories and poems that have already been written; they know some, of course, but have not yet found out the extent to which they are not the only persons residing on the planet. And so they sign their poems and stories like kings. 
+    </p>
    
 
 
@@ -26,6 +27,12 @@
     <div class="door1"><a href="indexroomofdoorsblack.html"><img src="black door.png" alt="black door" width="327" height="654"></a></div>
     <div class="door2"><a href="indexwhite30.html"><img src="white door.png" alt="white door" width="327" height="654"></a></div>
 </div> 
-
+<script type="text/javascript">
+    var p = document.querySelector("p");
+    p.innerHTML = p.innerHTML.replace(
+        /(^|<\/?[^>]+>|\s+)([^\s<]+)/g,
+        "$1<span>$2</span>"
+    );
+    </script>
   </body>
 </html>

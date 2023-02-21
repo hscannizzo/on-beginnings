@@ -11,33 +11,35 @@ html {
     background-color: black;
   }
 
-@media screen and (min-width: 601px) {
-  div.text1 {
+div.row1 {
+display: flex;
+flex-direction: row;
+row-gap: 40vh;
+margin-top: 0vh;
+margin-left: 0vh;
+position: relative;  
+top: -30px;
+justify-content: center;
+}
+div.row2 {
     display: flex;
-   flex-direction: row;
-  flex-wrap: wrap;
-   position:relative;
-  top: 3vw;
-  left:0vw;
-  font-size:40px; 
-  color: white;
-  font-family: 'Avenir', sans-serif;
-  word-wrap: normal; 
+    flex-direction: row;
+    row-gap: 40vh;
+    margin-top: 0vh;
+    margin-left: 0vh;
+    position: relative;  
+    top: -30px;
+    justify-content: center;  
 }
-}
-@media screen and (max-width: 600px) {
-  div.text1 {
+div.row3 {
     display: flex;
-   flex-direction: row;
-  flex-wrap: wrap;
-   position:relative;
-  top: 5vw;
-  left:0vw;
-  font-size:30px; 
-  color: white;
-  font-family: 'Avenir', sans-serif;
-  word-wrap: normal; 
-}
+    flex-direction: row;
+    row-gap: 40vh;
+    margin-top: 10vh;
+    margin-left: 0vh;
+    position: relative;  
+    top: -30px;
+    justify-content: center;   
 }
 
   @media screen and (min-width: 601px) {
@@ -48,7 +50,7 @@ html {
      position:relative;
     justify-content: left;
     align-items: left;  
-    top: 2vw;
+    top: 0vw;
     left:-11vw;
     text-align: left;
     font-size:150px; 
@@ -85,8 +87,8 @@ html {
       display: flex;
       flex-direction: row;
       row-gap: 40vh;
-      margin-top: 40vh;
-      margin-left: 20vh;
+      margin-top: 10vh;
+      margin-left: 15vh;
      
       position: absolute;
       resize: both;
@@ -97,7 +99,7 @@ html {
     display: flex;
     flex-direction: row;
     row-gap: 40vh;
-    margin-top: 40vh;
+    margin-top: 20vh;
     margin-left: 63vh;
     position: absolute;
     resize: both;

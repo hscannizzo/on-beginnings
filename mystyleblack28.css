@@ -23,6 +23,7 @@ html {
   color: white;
   font-family: 'Avenir', sans-serif;
   word-wrap: normal; 
+  justify-content: center;
 }
 }
 @media screen and (max-width: 600px) {
@@ -37,6 +38,7 @@ html {
   color: white;
   font-family: 'Avenir', sans-serif;
   word-wrap: normal; 
+  justify-content: center;
 }
 }
 

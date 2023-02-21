@@ -17,9 +17,9 @@ html {
    flex-direction: row;
   flex-wrap: wrap;
    position:relative;
-  top: 3vw;
+  top: -20vw;
   left:0vw;
-  font-size:40px; 
+  font-size:1000px; 
   color: white;
   font-family: 'Avenir', sans-serif;
   word-wrap: normal; 
@@ -31,9 +31,9 @@ html {
    flex-direction: row;
   flex-wrap: wrap;
    position:relative;
-  top: 5vw;
+  top: -70vw;
   left:0vw;
-  font-size:30px; 
+  font-size:1000px; 
   color: white;
   font-family: 'Avenir', sans-serif;
   word-wrap: normal; 
@@ -85,8 +85,8 @@ html {
       display: flex;
       flex-direction: row;
       row-gap: 40vh;
-      margin-top: 40vh;
-      margin-left: 20vh;
+      margin-top: 6030vh;
+      margin-left: 10vh;
      
       position: absolute;
       resize: both;
@@ -97,7 +97,7 @@ html {
     display: flex;
     flex-direction: row;
     row-gap: 40vh;
-    margin-top: 40vh;
+    margin-top: 4200vh;
     margin-left: 63vh;
     position: absolute;
     resize: both;

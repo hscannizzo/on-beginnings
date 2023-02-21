@@ -19,7 +19,7 @@ html {
    position:relative;
   top: 3vw;
   left:0vw;
-  font-size:40px; 
+  
   color: white;
   font-family: 'Avenir', sans-serif;
   word-wrap: normal; 
@@ -33,7 +33,7 @@ html {
    position:relative;
   top: 5vw;
   left:0vw;
-  font-size:30px; 
+ 
   color: white;
   font-family: 'Avenir', sans-serif;
   word-wrap: normal; 
@@ -78,7 +78,12 @@ html {
   }
   }
 
-
+div.text2a {
+ font-size: 500px;   
+}
+div.text2b {
+    font-size: 9px;   
+   }
 
 @media screen and (max-width: 600px) {
     div.doors {

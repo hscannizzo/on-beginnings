@@ -87,7 +87,7 @@ html {
       display: flex;
       flex-direction: row;
       row-gap: 40vh;
-      margin-top: 40vh;
+      margin-top: 180vh;
       margin-left: 20vh;
      
       position: absolute;
@@ -99,8 +99,8 @@ html {
     display: flex;
     flex-direction: row;
     row-gap: 40vh;
-    margin-top: 40vh;
-    margin-left: 63vh;
+    margin-top: 180vh;
+    margin-left: 23vh;
     position: absolute;
     resize: both;
   
